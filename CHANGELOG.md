@@ -4,6 +4,73 @@ All notable changes to this skill are documented here. Dates are BRT (UTC−3).
 The **Coverage** line in each release records the date of the most recent source
 post included, so future updates know where to pick up.
 
+## [1.4.0] — 2026-11-23
+
+- **+24 principles** distilled after individually reviewing 121
+  [@richardrx](https://x.com/richardrx) posts published from 26 Aug through 23 Nov 2026 (134 →
+  158; 136 → 166 cited posts). Six entries combine two posts on the same idea.
+- **Coverage** extended to **2025-11-03 → 2026-11-20**, the newest source actually included. The
+  complete candidate window was reviewed through **2026-11-23**; coverage was not advanced past
+  rejected posts. The eight in-window posts already decided in 1.3.0 were not reviewed again.
+- Expanded Pricing & Monetization (+4): window-style paywalls placed after first value, the
+  annual-discount break-even against monthly churn, public pricing vs "talk to sales", and a
+  first purchase priced below the buyer's no-approval limit.
+- Expanded Checkout & Forms (+4): local payment methods (Pix, boleto) next to the card, no
+  "check your email" wall at signup, the calendar right after the demo form, and marking both
+  required and optional fields.
+- Expanded Conversion & Landing Pages (+4): verifiable social proof, a hero that wins the first
+  30 seconds with the full pitch below, one landing page per search intent, and heroes that look
+  like the end of the page.
+- Expanded Metrics & Experimentation (+5): account-level activation in B2B, revenue per user as
+  the decision metric for funnel tests, findability tests before button tests, benchmarks by
+  model and conversion definition, and churn on the start-of-month base.
+- Expanded Onboarding & Activation (+3), AI-Era Differentiation (+2), Churn & Retention (+1) and
+  Positioning, ICP & GTM (+1): the demo as undesigned onboarding, a scoped invite modal, the
+  trial email audit, AI as an in-context suggestion, keeping "AI" out of the hero, crossing "too
+  expensive" with usage, and visibility in AI answers.
+- Cross-referenced the entries that sit in tension with existing advice: verifiable social proof
+  is a stated exception to "No clicks out, plus brutal CTA contrast" (2026-02-05); the window
+  paywall explains how it differs from "Frame the upgrade as a loss at the moment of value"
+  (2026-04-21); the 30-second hero reads with "Design the features page for skimming, not
+  reading" (2026-02-09); the "too expensive" entry points to "Design the cancel screen"
+  (2026-05-13); and the findability entry to "Don't bet your product on an underpowered A/B
+  test" (2026-06-01).
+- Bundled four informational images: the window paywall, the tested testimonial section, the
+  accountant-invite modal, and the Unbounce sector chart. The image on `2118384265180135935` was
+  not bundled: it shows a declined-card error with a Pix fallback, not the field marking its
+  post describes.
+- Checked the external figures against their primary sources. Where a figure in the post
+  differed from its source (Baymard field marking, Microsoft Research dwell time, the Wynter
+  AI-prompt survey, Unbounce dates, Optimizely sample size), the entry follows the source; the
+  ROSS Intelligence figure could not be traced and is attributed to Richard.
+- Rejected as already covered or redistilled: `2124922293277102449`, `2124876535270134023`,
+  `2123498261482811600`, `2122754671672479838`, `2122711703380955455`, `2122669904239235465`,
+  `2122359530860286325`, `2122298590047396348`, `2120861922299945063`, `2120562190583292411`,
+  `2119789624293822556`, `2118729813615685683`, `2118319881418330519`, `2117235348929487217`,
+  `2115794215212855653`, `2115414752314687726`, `2115180051503169625`, `2115083305108312444`,
+  `2113895972438700115`, `2112948064017096787`, `2112865596211626428`, `2112633809569227215`,
+  `2112529030243127763`, `2112189157653033451`, `2110112980251611464`, `2108960577846395304`,
+  `2108651973885010106`, `2108525044473192951`, `2108241720416571489`, `2107473699020398866`,
+  `2107169386494599391`, `2107093857183674541`, `2106000935780552947`, `2105689074765885479`,
+  `2105405659475030459`, `2104905625473892360`, `2104542608093577258`, `2103482070844453163`,
+  `2103089400749904285`, `2102851760943517943`, `2102747846525018224`, `2102720850415718593`,
+  `2102039796407292222`, `2102008416956751948`, `2100982161360773471`, `2100588470359978232`,
+  `2100200515803975844`, `2099859772036055283`, `2099853605054316775`, `2099567572307869703`,
+  `2098420162571452573`, `2098059694283583701`, `2097767518962332061`, `2097743061883269142`,
+  `2097349555272450223`, `2097291190987084181`, `2096997268226289807`, `2095899216367271951`,
+  `2094479242956283961`, `2092932038760272382`.
+- Rejected as weak, promotional, or out of scope (including two betting-related posts under the
+  reuse exclusion): `2124554688016355693`, `2120684974311412068`, `2120148778808201368`,
+  `2119802423128596844`, `2118426591407546459`, `2116553306386423968`, `2115468005282828694`,
+  `2114793678166426052`, `2114703232224100683`, `2113255191176720878`, `2112875136919458087`,
+  `2112650627767574558`, `2110408963627901226`, `2108326504387985650`, `2107904397447483530`,
+  `2106140954025472112`, `2105718033771880511`, `2105220351890162126`, `2105004857006674121`,
+  `2104549332087091430`, `2104341677565415482`, `2104240887412695370`, `2104230578727932324`,
+  `2103052954320203783`, `2101243169316770236`, `2100572045553582261`, `2099935555505050075`,
+  `2098499451656819001`, `2097364506594677182`, `2095214020710076628`, `2093310753088434487`.
+  These 91 IDs are review decisions, not uncited sources, and therefore are intentionally absent
+  from `updater/posts.txt`.
+
 ## [1.3.0] — 2026-09-03
 
 - **+1 principle** distilled after individually reviewing 16 [@richardrx](https://x.com/richardrx)

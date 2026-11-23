@@ -2,6 +2,21 @@
 
 > Curated, distilled wisdom from @richardrx ("Richard — Design for startups"), translated from Portuguese. Each entry is a reusable principle linked to its source post.
 
+## Get into the AI answer: name your category, publish price and comparisons
+**Principle.** Buyers now ask ChatGPT which tool to use, mostly with category questions that name no brand. To make the list that comes back, the model has to understand your category, who you serve and what you cost — and it takes that from your site and from what other sites say about you. Several of those signals are simple to influence.
+**Apply when.** B2B buyers research vendors with AI assistants, and you don't appear when you ask your own category question.
+**The move.**
+- First fold of the home: the category as customers type it, who it's for, and the result — "the platform that transforms how you work" can't be matched to "best recurring-billing software for gyms."
+- Public pricing in text: AIs can't cite a price they haven't read, and many prompts include a budget ("up to R$500/month").
+- An "alternatives to [competitor]" and a "[you] vs [competitor]" page for each tool customers already use — otherwise the competitor's comparison is the one that gets cited.
+- robots.txt: blocking "AI bots" wholesale also blocks OAI-SearchBot (ChatGPT search) and PerplexityBot; you can block GPTBot (training) and keep search crawlers.
+- Page text present in HTML without JavaScript — AI crawlers generally don't run JS; `curl` the URL and look for your category phrase.
+- Bing Webmaster Tools (ChatGPT search uses Bing as one source); SoftwareApplication schema with category and price, plus an FAQ of sales-call questions in customers' words.
+- Off-site: complete G2/Capterra profiles with recent reviews, ask to be included in existing "best X for Y" articles, answer honestly in specialist forums.
+- Measure monthly: run 10 category and alternative questions in ChatGPT, Perplexity and Gemini, note who appears and which sources are cited; filter analytics by `utm_source=chatgpt.com`.
+**Evidence.** Wynter asked 200 B2B buyers (November 2026) for the first prompt they wrote the last time they researched a vendor with AI: 62% opened with a category question naming no vendor ("What are the best X for Y?"); another 17% asked for alternatives to, or tools like, a named vendor.
+**Source.** [@richardrx · 2026-11-18](https://x.com/richardrx/status/2123036224810070357)
+
 ## Size the market with TAM → SAM → SOM (and know which one matters)
 **Principle.** Your real market is far smaller than the population — TAM is a theoretical ceiling (Brazil's 213M becomes ~101M credit-card holders for a paid app). Investors often ignore a TAM under ~R$1B, but the number that matters is the **SOM** — what you can actually capture.
 **Apply when.** Sizing a market, writing a deck, or judging whether a niche is big enough.

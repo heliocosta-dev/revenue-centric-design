@@ -2,6 +2,28 @@
 
 > Curated, distilled wisdom from @richardrx ("Richard — Design for startups"), translated from Portuguese. Each entry is a reusable principle linked to its source post.
 
+## Audit the trial emails as one sequence — every unsubscribe cuts a reactivation channel
+**Principle.** Each team hangs its own email on the trial sequence — onboarding, marketing, customer success, billing — and nobody adds them up. A trial user who unsubscribes loses the only channel that could bring them back to activate, and a trial that doesn't activate churns before paying the first month.
+**Apply when.** Several teams send automated email during the trial, or activation is weak despite "plenty of nurturing."
+**The move.** Five-minute test: (1) list every automated send a user gets in the first 14 days of trial, adding onboarding, marketing and transactional; (2) count them; (3) next to each, note whether it leads the person to do something inside the product or only informs; (4) pull each email's unsubscribe rate. If most only inform, your sequence talks about you instead of taking the user to first value. If one email concentrates the unsubscribes, it's the first cut — even if someone on the team likes it.
+**Evidence.** Richard cites a 2026 Baymard survey of US online shoppers: 48% of people who unsubscribe from a newsletter leave because one specific brand sends too much email. The research is e-commerce; he suspects trial sequences share the problem.
+**Source.** [@richardrx · 2026-10-29](https://x.com/richardrx/status/2115926984710668624)
+
+## Make the invite modal say what the invitee can't see
+**Principle.** Nobody brings another person into their company's system without knowing what that person will see inside. That's why an invite button that has existed since the MVP still leaves most accounts with a single user: the modal asks for an email and stops there.
+**Apply when.** Accounts rarely add a second user, or you're shipping a role-specific invite (accountant, agency, partner).
+**The move.** Put the sentence that scopes the access right above the email field. In RepareCar's invite for the shop's accountant — usually sent by whoever handles the cash, often the owner's wife — the most important line says what the accountant can't do or see: "doesn't issue or cancel invoices, doesn't see work orders, the yard, the dashboard or your account data." Ship the screen with a single KPI. Then split accounts that invited someone from those that never did and compare their churn; a big gap means you found hidden churn on a screen nobody has opened in Figma since the MVP.
+**Evidence.** In 90 days, a third of the 100 shops that opened the modal sent the invite.
+**Visual.** RepareCar's accountant-invite modal: what the accountant can do (configure and export the shop's tax data) and can't (issue or cancel invoices, see work orders, yard, dashboard or account data), above the email field and a copyable invite link — `../assets/2108257345222389995__1.jpg`
+**Source.** [@richardrx · 2026-10-08](https://x.com/richardrx/status/2108257345222389995)
+
+## The salesperson is the onboarding you haven't designed
+**Principle.** Some SaaS have an excellent demo: the seller walks the client exactly to what they need to see, explaining every detail and answering every question. Then the client gets a login and conversion collapses. It looks like an onboarding problem, but sometimes it's worse — the demo was masking the product's complexity, and the seller doesn't log in with the customer.
+**Apply when.** Demo-assisted conversion is strong but self-serve conversion, or activation after handoff, is weak.
+**The move.** One-hour diagnosis: record a demo and note every time the seller explained, pointed, or clicked for the client. Each item on that list is a place where the product, on its own, loses people — and the gap between demo-assisted and self-serve conversion is exactly the size of the list. The same recording trick works on the landing page: see "Win the first 30 seconds with the hero" (2026-10-22).
+**Voice.** "The salesperson is the onboarding you haven't designed yet, and he doesn't log in with the customer."
+**Source.** [@richardrx · 2026-09-22](https://x.com/richardrx/status/2102421181324276215)
+
 ## Map the whole journey to value — then fix the biggest drop, not the first step
 **Principle.** Founders rush to the top of the funnel when activation falls, but the leak is usually in the middle — the step where effort is already high and the user hasn't seen proof it's worth it. Method: (1) Define what "value" is (the first moment the user gets the promised result — measurable, visible in data). (2) List every step between signup and that value (every screen, click, wait, field — always more than you remember). (3) Measure drop per step; find the steepest fall. (4) Fix the biggest drop first — that's where the money is. (5) Diagnose why: friction (cut), confusion (direct attention), ordering (deliver value before asking effort).
 **Apply when.** Activation is low and you're not sure where the leak is.

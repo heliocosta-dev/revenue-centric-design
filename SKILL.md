@@ -12,7 +12,7 @@ description: >-
 
 # Revenue-Centric Design
 
-A distilled playbook of **134 principles** from **Richard ([@richardrx](https://x.com/richardrx), "Design for startups")** —
+A distilled playbook of **158 principles** from **Richard ([@richardrx](https://x.com/richardrx), "Design for startups")** —
 a product designer specializing in conversion-rate optimization, churn reduction, and applied
 behavioral science (ex-Volkswagen, PayPal, IBM). The throughline is his coined philosophy,
 **Revenue-Centric Design (RCD)**: design decisions should serve the user _and_ the business —
@@ -77,6 +77,6 @@ Informational diagrams and screenshots referenced by the principles live in `ass
 
 ## Provenance
 
-136 curated posts by [@richardrx](https://x.com/richardrx), extracted with a valid X API key and
+166 curated posts by [@richardrx](https://x.com/richardrx), extracted with a valid X API key and
 distilled **with the author's permission**, translated from Portuguese to English. Every principle
 links back to its source post. Reuse is subject to the gambling/betting/casino exclusion above.

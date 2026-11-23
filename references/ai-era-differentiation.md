@@ -2,6 +2,21 @@
 
 > Curated, distilled wisdom from @richardrx ("Richard — Design for startups"), translated from Portuguese. Each entry is a reusable principle linked to its source post.
 
+## Sell the outcome in the hero — keep "AI" out of it
+**Principle.** Writing AI at the top of the page hands the visitor a price ruler you didn't choose: the ~US$20/month they already pay for ChatGPT (or the free version). From then on they compare your price to that subscription and stop comparing it to the problem you solve. Unfamiliar tech jargon and brands make it worse — what's complicated, unknown or hard to pronounce breeds insecurity, and insecurity means less conversion.
+**Apply when.** Tempted to lead with "Powered by [model]" or AI vocabulary to look big or modern.
+**The move.** Sell the pain or the transformation and the time the customer stops losing (depending on awareness level), with the result in the hero and the AI kept in the FAQ or inside the product. Speak your ICP's language: when Richard worked at PayPal, its seal didn't lift a Brazilian merchant's conversions because the average Brazilian didn't know the brand — Mercado Pago and PagSeguro were better known, and Mastercard marks were what made the checkout convert.
+**Evidence.** A client switched the hero to "Powered by Gemini" to look like a big company; conversion halved the same week and came back when AI left the spotlight — not the only such case. Mechanisms Richard cites: anchoring (Kahneman); mental accounting — the buyer's "AI spending" box is already taken, so you enter as a duplicate expense instead of the pain's budget (Thaler); the effort heuristic — AI sounds like work nobody did, and people pay less for what seems effortless (Kruger et al., 2004; Buell & Norton, 2011); algorithm aversion — when results matter, people trust a machine less than a person, especially after seeing it err (Dietvorst, Simmons & Massey, 2015).
+**Voice.** "You deliver more than ChatGPT and still lose the comparison — your fault, for putting it on the table."
+**Source.** [@richardrx · 2026-11-04](https://x.com/richardrx/status/2118013957717864492) and [@richardrx · 2026-11-03](https://x.com/richardrx/status/2117593721382355008)
+
+## Don't ship AI as a blank prompt — serve it as a ready suggestion in context
+**Principle.** Chat put AI back in the MS-DOS era: the ChatGPT box is a command line that speaks natural language, and people don't know what the model can do. Pix beat TED (Brazil's old bank transfer, which needed bank, branch, account, check digit and CPF) for the same reason Windows beat MS-DOS: the visual desktop metaphor solved both feature discovery and remembering where things are — problems the command line created that kept computers restricted to power users (availability bias, salience).
+**Apply when.** Launching an AI feature — especially one introduced once, in a first-access tour that many users skip unread.
+**The move.** Take the decision away from the user, as OpenAI did when GPT-5 began choosing on its own when to reason. Use the AI as the engine of something pre-chewed for the end user: a ready suggestion in the right place on screen, at the moment they need it, instead of a blank box waiting for them to guess what to ask. A one-time mention in the tour gets feature adoption close to zero.
+**Evidence.** Sam Altman: under 1% of free users used the reasoning model, 7% of paying users; three days after GPT-5's launch, with routing automatic, usage was 7% among free and 24% among paying users.
+**Source.** [@richardrx · 2026-10-08](https://x.com/richardrx/status/2108155720281546991)
+
 ## Faster building doesn't fix churn — activation does
 **Principle.** Build speed was never the bottleneck. Shipping the same confusing interface faster is just a more efficient route to churn. The real gap is the space between a user entering the product and understanding what to do.
 **Apply when.** Vibe coding is sold to a founder as "the product got cheaper to build," and the team equates speed with progress.
